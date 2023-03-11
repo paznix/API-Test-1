@@ -15,6 +15,9 @@
 // we have to design and code an API over this
 
 
+
+--------------GET REQUESTS--------------
+
 // 1. BOOKS
 // we need an API:
     to get all books                                    -DONE
@@ -35,3 +38,10 @@
     to get list of publications based on books          -DONE
 
 
+  
+  --------------POST REQUESTS--------------
+
+// we need an API:
+    add new book                         -DONE
+    add new publication
+    add new author
