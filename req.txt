@@ -43,5 +43,11 @@
 
 // we need an API:
     add new book                         -DONE
-    add new publication
-    add new author
+    add new publication                  -DONE
+    add new author                       -DONE
+
+
+
+  --------------PUT REQUESTS--------------
+
+// update book details if author is changed
