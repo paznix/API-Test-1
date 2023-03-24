@@ -1,4 +1,5 @@
 const express = require('express');
+const mongoose = require('mongoose');
 var bodyParser = require("body-parser")
 
 // Database
@@ -11,6 +12,11 @@ const port = 3000;
 
 booky.use(bodyParser.urlencoded({extended: true}));
 booky.use(bodyParser.json());
+
+// MongoDB
+const mongoDB = "mongodb+srv://paznic:Shadowkingg%409@clustercp.1n4ssbm.mongodb.net/Booky?retryWrites=true&w=majority";
+
+mongoose.connect(mongoDB).then(()=> console.log("Connection to database successful."));
 
 
 //! GET 
