@@ -1,0 +1,16 @@
+MongoDB Operators -> Powerful Operators
+
+Logical Operators
+    - $inc => increment
+    - there is no decrement
+        for decrement we have to use $inc -1, -2 ...
+    - $min => Minimum
+    - $max => Maximum
+    - $set => used to set a data
+    - $unset => removing propery from an object
+
+Array Operators
+    - $push => pushing property to smth like Array
+    - $pop => used to extract/delete the last element
+    - $pull => pull a specific property
+    - $addToSet => same as push and doesn't allow duplicate
